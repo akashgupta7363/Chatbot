@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chatbox">
+      <div class="chatbox_header">
+        <i class="bx bx-bot profile"></i>
+        <h3>Your AI Assistant</h3>
+      </div>
+      <div class="chatbox_main" id="chatbox_input">
+        <div class="chatbox_item received">
+          <span class="item_text">Hi there! how can I help you?</span>
+        </div>
+      </div>
+      <div class="chatbox_bottom">
+        <form action="#" id="chatbox_message_form" class="chatbox_message_form">
+          <textarea
+            rows="1"
+            cols="34"
+            placeholder="Type message..."
+            class="chatbox_input"
+            id="chatbox_input"
+          ></textarea>
+          <button type="submit" class="chatbox_submit">
+            <i class="bx bx-send"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
