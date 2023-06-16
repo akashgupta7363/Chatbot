@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Your AI Assistant",
+  "version": "1.0.0",
+  "description": "A chatbot using the ChatGPT API",
+  "action": {
+    "default_icon": {
+      "16": "chatbot.png",
+      "24": "chatbot.png",
+      "32": "chatbot.png",
+      "128": "chatbot.png"
+    },
+    "default_title": "Click Me",
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"]
+}
